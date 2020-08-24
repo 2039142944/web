@@ -1,0 +1,16 @@
+#re {
+  background-color: burlywood;
+  color: red;
+  font-size: 2.5;
+  border: solid red 2px;
+  font-weight: 400; }
+  #re:hover {
+    color: green; }
+
+#re {
+  background-color: burlywood;
+  color: red;
+  font-size: 1.876rem;
+  border: solid red 1px; }
+  #re:hover {
+    color: green; }

@@ -1,0 +1,16 @@
+$temp:red;
+$tes:solid red 2px;
+@mixin mybg($a) {
+	font-weight:$a;
+}
+
+#re{
+	background-color: burlywood;
+	color: $temp;
+	font-size: (500px/200px);	
+	border: $tes;
+	&:hover{
+		color: green;
+	}
+	@include mybg(400);
+}

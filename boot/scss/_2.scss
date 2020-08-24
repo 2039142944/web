@@ -1,0 +1,11 @@
+$temp:red;
+$tes:solid red 1px;
+#re{
+	background-color: burlywood;
+	color: $temp;
+	font-size: 1.876rem;	
+	border: $tes;
+	&:hover{
+		color: green;
+	}
+}
